@@ -1,0 +1,16 @@
+Player currPlayer;
+        int turnCount = 0;
+        int play;
+        
+        boolean keepPlaying = true;
+        while (keepPlaying)
+        {
+            turnCount++;
+            
+            if (turnCount % 2 == 0) {
+                (currPlayer = player0);
+            }
+            else {
+                currPlayer = player1;
+            }
+         }
